@@ -1,4 +1,5 @@
 # Simon Says Game 🎮
+https://saira-code.github.io/simon-says-game/
 
 A memory pattern game where you repeat increasingly longer sequences of colored buttons.
 ## Demo Video
