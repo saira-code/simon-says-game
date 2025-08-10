@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+}
+
+#buttons {
+  display: inline-block;
+}
+
+.btn {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  display: inline-block;
+  opacity: 0.6;
+  cursor: pointer;
+  border-radius: 15px;
+  transition: opacity 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.green { background-color: green; }
+.red { background-color: red; }
+.yellow { background-color: yellow; }
+.blue { background-color: blue; }
+
+.btn.active {
+  opacity: 1;
+  transform: scale(1.05);
+  filter: brightness(1.5);
+  box-shadow: 0 0 25px white, 0 0 40px currentColor;
+}
+
+#message {
+  font-size: 1.2em;
+  margin-top: 20px;
+}
+
+#start {
+  margin-top: 15px;
+  padding: 10px 20px;
+  font-size: 1em;
+}
